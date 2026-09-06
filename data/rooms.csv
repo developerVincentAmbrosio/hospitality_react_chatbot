@@ -1,0 +1,6 @@
+room_number,room_type,bed_type,occupancy,status,view,price_per_night
+101,single,queen,1,Out-of-service,front,110
+102,single,king,1,clean,back,130
+310,double,queen,2,dirty,front,150
+511,double,knig,2,clean,front,160
+614,suite,"king,queen,sofa",6,clean,back,250

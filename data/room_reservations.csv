@@ -1,0 +1,6 @@
+reservation_id,booking_status,booking_status,check_in_date,check_out_date,car_on_premises
+RES789,CONF123,confirmed,2026-08-16,2006-08-22,FALSE
+RES130,CONF456,canceled,2026-09-04,2026-09-07,FALSE
+RES565,CONF789,checked-in,2026-08-10,2026-08-15,TRUE
+RES121,CONF101,confirmed,2026-09-03,2026-09-08,FALSE
+RES056,CONF202,checked-in,2026-08-08,2026-08-15,TRUE

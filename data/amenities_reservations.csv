@@ -1,0 +1,6 @@
+reservation_id,booking_status,booking_status,reservation_type,reservation_date,reservation_time
+AMT899,CONF123,confirmed,water_park,2026-08-17,1000
+AMT545,CONF456,canceled,spa,2026-09-05,1400
+AMT098,CONF789,confirmed,spa,2026-08-10,1500
+AMT786,CONF101,confirmed,water_park,2026-09-03,1000
+AMT921,CONF202,confirmed,restaurant,2026-08-08,1800

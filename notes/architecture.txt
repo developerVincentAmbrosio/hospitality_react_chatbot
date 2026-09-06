@@ -1,0 +1,26 @@
+my-chatbot-project/
+├── .streamlit/
+│   └── config.toml             # Streamlit visual styles
+│
+├── app.py                      # Core UI entry point (Main loop & Streamlit state)
+│
+├── chatbot/                    # The LangGraph "Brain" 
+│   ├── nodes/                  # FOLDER: Conversational action steps
+│   │   ├── greeting.py         # Warm proactive outreach logic
+│   │   ├── checkin.py          # Extracts data & processes digital check-in
+│   │   └── upsell.py           # Evaluates and pitches unbooked amenities
+│   ├── edges.py                # FILE: Conditional routing between nodes
+│   ├── state.py                # FILE: Tracks memory variables & chat history
+│   └── graph.py                # FILE: Compiles the nodes and edges together
+│
+├── ui/                         # Streamlit Layout Widgets
+│   ├── cards.py                # Formats look of amenity pitches (st.columns)
+│   └── forms.py                # Interactive check-in elements (st.form)
+│
+├── services/                   # Backend Integration Layer
+│   ├── db.py                   # Connects to Hotel PMS data / Reservation lookup
+│   └── llm.py                  # Initializes LLM clients (OpenAI/Claude) & base prompts
+│
+├── requirements.txt            # streamlit, langgraph, langchain
+└── README.md
+

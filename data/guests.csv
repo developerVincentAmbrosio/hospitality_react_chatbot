@@ -1,0 +1,6 @@
+guest_id,fullname,phone_number,email,address_1,address_2,address_3,city,state,zip,country,id_type,id_number,license_plate_number,preferred_contact,loyalty_member
+GID123,Alice Smith,+1-555-0199,alice.smith@example.com,123 Maple Street,Apt 4B,,Austin,TX,78701,USA,Driver's License,DL-9876543,TX-ABC123,text,TRUE
+GID456,Bob Jones,+1-555-0144,bjones@example.net,456 Oak Avenue,,,Orlando,FL,32801,USA,Passport,PP-A1234567,FL-XYZ789,text,TRUE
+GID789,Charlie Brown,+1-555-0177,charlie.b@example.org,789 Pine Road,Suite 100,Business District,Seattle,WA,98101,USA,Driver's License,DL-4561237,WA-LMN456,text,FALSE
+GID101,Diana Prince,+1-555-0122,diana.p@example.com,101 Gateway Blvd,,,Los Angeles,CA,90001,USA,State ID,ID-7778889,CA-VWR111,text,TRUE
+GID202,Evan Wright,+1-555-0155,ewright@example.com,202 Birch Court,,,Denver,CO,80202,USA,Passport,PP-B9876543,CO-STG555,text,FALSE
