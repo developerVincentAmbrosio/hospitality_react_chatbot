@@ -14,7 +14,7 @@ class ChatbotState(TypedDict):
     # progression flags
     greeted: bool
     checked_in: bool
-    upsold: bool
+    upsell_ptiched: bool
 
     # data from user
     checkin_data: Dict[str, Any]
@@ -30,7 +30,7 @@ def get_state() -> ChatbotState:
         "guest_info": {},
         "greeted": False,
         "checked_in": False,
-        "upsold": False,
+        "upsell_pitched": False,
         "checkin_data": {},
         "targeted_offers": []
     }
